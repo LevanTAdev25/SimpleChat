@@ -1,0 +1,52 @@
+# =========================
+# Build files
+# =========================
+/build/
+/app/build/
+**/build/
+.externalNativeBuild/
+.cxx/
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+
+# =========================
+# Local config (machine-specific)
+# =========================
+local.properties
+
+# =========================
+# IDE (Android Studio / IntelliJ)
+# =========================
+.idea/
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Generated files
+# =========================
+*.apk
+*.aar
+captures/
+
+# =========================
+# Sensitive files (IMPORTANT)
+# =========================
+*.jks
+*.keystore
+*.properties
+
+# Firebase config (optional - tùy project)
+app/google-services.json
